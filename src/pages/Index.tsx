@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
-import AnimatedBackground from "@/components/AnimatedBackground";
+import NeuralBackground from "@/components/NeuralBackground";
 import ServiceCards from "@/components/ServiceCards";
 import ContactForm from "@/components/ContactForm";
 import Chatbot from "@/components/Chatbot";
@@ -24,7 +24,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-4">
-        <AnimatedBackground />
+        <NeuralBackground />
         <div className="container mx-auto max-w-4xl text-center z-10">
           <motion.h1 
             initial={{ opacity: 0, y: -20 }}
