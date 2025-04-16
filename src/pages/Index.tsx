@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Element } from "react-scroll";
 import { motion } from "framer-motion";
@@ -9,6 +8,7 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 import ServiceCards from "@/components/ServiceCards";
 import ContactForm from "@/components/ContactForm";
 import Chatbot from "@/components/Chatbot";
+import ShowcaseSection from "@/components/ShowcaseSection";
 
 const Index = () => {
   const [chatbotOpen, setChatbotOpen] = useState(false);
@@ -176,6 +176,9 @@ const Index = () => {
           <ServiceCards />
         </div>
       </Element>
+
+      {/* Showcase Section */}
+      <ShowcaseSection />
 
       {/* Contact Section */}
       <Element name="contact" className="py-20 px-4 bg-white">
