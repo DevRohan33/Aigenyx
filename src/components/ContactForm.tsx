@@ -156,7 +156,7 @@ const ContactForm: React.FC = () => {
               type="button"
               variant="outline"
               className="flex-1"
-              onClick={() => window.open("https://wa.me/message", "_blank")}
+              onClick={() => window.open("https://wa.me/918585059644", "_blank")}
             >
               WhatsApp
               <MessageSquare className="w-4 h-4 ml-2" />
